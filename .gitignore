@@ -1,0 +1,48 @@
+﻿# Python 缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境
+env/
+venv/
+.venv/
+ENV/
+
+# PyInstaller 生成文件
+build/
+dist/
+*.spec
+
+# 可执行文件
+*.exe
+
+# 压缩包
+*.zip
+
+# 数据文件（保留样例）
+origin_test.xlsx
+origin_test_survival_data.xlsx
+test_survival_data.xlsx
+# test.xlsx 保留作为数据样例
+
+# 开发工具
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+temp-code/
+*-副本.py
+*-test.py
+*-bak.py
+*-deprecated.py
+
+# 其他
+1.txt
+doc.txt
