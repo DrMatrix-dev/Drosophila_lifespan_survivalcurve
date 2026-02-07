@@ -1,0 +1,1 @@
+pyinstaller --onefile --console --name="SurvivalAnalysis" --icon="icon.ico" --collect-all lifelines --collect-all statsmodels --collect-all matplotlib --hidden-import=pandas --hidden-import=numpy --hidden-import=matplotlib.backends.backend_tkagg --hidden-import=matplotlib.backends.backend_agg --hidden-import=seaborn --hidden-import=openpyxl --hidden-import=tkinter --clean main.py
