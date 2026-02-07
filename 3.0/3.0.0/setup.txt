@@ -1,0 +1,4 @@
+pyinstaller --onefile --console --name="SurvivalAnalysis" --icon="icon.ico" --hidden-import=pandas --hidden-import=numpy --hidden-import=matplotlib --hidden-import=matplotlib.backends.backend_agg --hidden-import=seaborn --hidden-import=openpyxl --hidden-import=xlrd --hidden-import=scipy --hidden-import=scipy.stats --hidden-import=scipy.special --hidden-import=scipy.spatial --hidden-import=scipy.spatial.transform --collect-all=matplotlib --clean lifespan-dev-design.py
+
+
+pyinstaller --onefile --console --name="SurvivalAnalysis" --icon="icon.ico"  --hidden-import=pandas --hidden-import=numpy --hidden-import=matplotlib --hidden-import=seaborn --hidden-import=openpyxl --clean main.py
